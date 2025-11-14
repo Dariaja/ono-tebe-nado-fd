@@ -1,1 +1,1 @@
-https://github.com/Dariaja/tebe-ono-nado
+https://github.com/Dariaja/ono-tebe-nado-fd
