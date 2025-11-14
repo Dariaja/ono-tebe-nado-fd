@@ -283,7 +283,6 @@
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 133px;
-  margin-left: 70px;
   
 }
 
@@ -313,7 +312,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
   
-  padding: 80px 50px;
+  padding: 0 0 50px 0;
 }
 
 .footer__address {
