@@ -253,7 +253,7 @@
   display: grid;
   grid-template-columns: 350px 1fr;
   align-items: start;
-  padding: 80px 024px;
+  padding: 80px 0px;
 }
 
 .aboutlogo__column_left {
@@ -283,7 +283,8 @@
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 133px;
-  margin-left: 50px;
+  margin-left: 70px;
+  
 }
 
 .about__title {
@@ -300,7 +301,7 @@
   flex-direction: column;
   gap: 12px;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
