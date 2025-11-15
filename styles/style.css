@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  margin-top: 92px;
+  margin-top: 90px;
   margin-bottom: 96px;
   padding: 0 50px;
   font-size: 18px;
@@ -37,14 +37,14 @@
   z-index: 2;
   display: block;
   justify-self: center;
-  width: 124.05px;
-  margin-left: 11.39px;
+  min-width: 125px;
+  margin-left: -2px;
   border: 6px;
 }
 
 .header__logo-image {
   display: block;
-  width: 129px;
+  min-width: 129px;
   height: auto;
 }
 
@@ -97,31 +97,30 @@
   display: block;
   box-sizing: border-box;
   width: 100%;
+  padding: 12px 0;
   font-weight: 700;
   font-size: 100px;
   font-style: normal;
   line-height: 115%;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  padding: 12px 0;
 }
 
 .aligned-text_left {
   margin-top: 150px;
-  
   text-align: left;
 }
 
 .aligned-text_center {
-  text-align: center;
-  margin-left: 15px;
   margin-top: -5px;
+  margin-left: 15px;
+  text-align: center;
 }
 
 .aligned-text_right {
+  margin-top: -5px;
   margin-left: 30px;
   text-align: right;
-  margin-top: -5px;
 }
 
 .cover__description {
@@ -224,7 +223,6 @@
   font-size: 22px;
   font-style: normal;
   line-height: 120%;
-  letter-spacing: 0%;
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 1px;
@@ -237,8 +235,8 @@
   font-size: 20px;
   font-style: normal;
   line-height: 120%;
-  letter-spacing: 0%;
 }
+
 .card_type_film {
   background-image: url('../images/card-lot-01.jpg');
 }
@@ -250,6 +248,7 @@
 .card_type_picture {
   background-image: url('../images/card-lot-03.jpg');
 }
+
 .lots__look-more-link {
   display: inline-block;
   margin-top: 30px;
@@ -299,7 +298,7 @@
 
 .about__title {
   align-items: center;
-  margin: 0 50px 100px 0;
+  margin: 0 50px 105px 0;
   font-weight: 700;
   font-size: 40px;
   line-height: 100%;
@@ -311,15 +310,11 @@
   flex-direction: column;
   gap: 24px;
   margin-right: 50px;
-  
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0;
-
 }
-
-
 
 .footer {
   display: grid;
@@ -327,7 +322,6 @@
   align-items: start;
   padding: 115px 50px 50px 50px;
 }
-
 
 .footer__address {
   display: flex;
