@@ -75,7 +75,7 @@
   justify-content: center;
   align-items: flex-start;
   box-sizing: border-box;
-  height: 757px;
+  min-height: 757px;
   margin-top: 46px;
   padding: 0 50px;
   color: #fff;
@@ -181,7 +181,7 @@
 .lots__card-list-item {
   flex: 0 0 calc((100% - 50px) / 3);
   width: 100%;
-  height: 596px;
+  min-height: 596px;
 }
 
 .card-link {
@@ -293,6 +293,7 @@
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 133px;
+  margin-left: 30px;
 }
 
 .about__title {
@@ -308,7 +309,7 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin-top: 120px;
+  margin-top: 100px;
   margin-bottom: 100px;
   font-weight: 400;
   font-size: 20px;
